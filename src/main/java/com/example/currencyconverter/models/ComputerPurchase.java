@@ -40,8 +40,7 @@ public class ComputerPurchase {
     @Override
     public String toString() {
         return "ComputerPurchase{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", postDate=" + postDate +
                 ", costUSD=" + costUSD/100 +
                 ", costPLN=" + costPLN/100 +
